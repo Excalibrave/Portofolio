@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Saya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Website Saya</h1>
+  </header>
 
+  <nav>
+    <a href="#about">Tentang Saya</a>
+    <a href="#portfolio">Portofolio</a>
+  </nav>
+
+  <main class="container">
+    <div>
+      <img src="https://via.placeholder.com/300x400" alt="Foto Profil" class="profile-img" />
+    </div>
+    <div>
+      <section class="about" id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah seorang web developer yang sedang belajar membuat layout menggunakan HTML dan CSS modern.</p>
+      </section>
+
+      <section class="portfolio" id="portfolio">
+        <h2>Portofolio</h2>
+        <div class="projects">
+          <div class="project-card">
+            <img src="https://via.placeholder.com/200x120" alt="Project 1" />
+            <p>Project Aplikasi Web</p>
+          </div>
+          <div class="project-card">
+            <img src="https://via.placeholder.com/200x120" alt="Project 2" />
+            <p>Desain UI Mobile</p>
+          </div>
+          <div class="project-card">
+            <img src="https://via.placeholder.com/200x120" alt="Project 3" />
+            <p>Dashboard Admin</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Website Saya</p>
+  </footer>
+</body>
+</html>
